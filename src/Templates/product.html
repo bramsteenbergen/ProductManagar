@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% include 'header.html' %}
+
+    <h1> {{ object.name }} </h1>
+    <p> {{ object.alp_num_code}} : {{ object.stock}}</p>
+    <p> {{ object.description}}</p> <br>
+    <a href="../updateproduct?id={{ object.pk }}"> UPDATE </a> <a href="../deleteproduct?id={{ object.pk }}"> DELETE </a>
+</body>
+</html>
