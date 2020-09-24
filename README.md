@@ -14,3 +14,7 @@ Both the "admin" and "products" applications have sub-url's but here we will be 
 *products/getproduct/<ID>* Lists a single product in the database. <br>
 *products/updateproduct/<ID>* Allows you to update a specified product via POST function. <br>
 *products/deleteproduct/<ID>* Allows you to delete a specified product. <br>
+
+In order to deploy the server you can just execute the following command in the folder containing manage.py:
+
+*python manage.py runserver*
